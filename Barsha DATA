@@ -1,0 +1,59 @@
+Products 
+
+Prod_id, Prod_name, Prod_type
+
+2100, 'Iphone 10', 'Phone'
+2101, 'Samsung', 'Tablet'
+2102, 'Samsung Note 10+', 'Phone'
+2103, 'Iphone 11 plus', 'Phone'
+2104, 'Lenovo', 'Laptop'
+2105, 'Asus', 'Laptop'
+2106, 'Google Chromebook', 'Laptop'
+2107, 'Samsung 10e', 'Phone'
+2108, 'Ipad', 'Tablet'
+2109, 'Iphone 8', 'Phone'
+
+Store
+
+store_id, store_address, city, region, state, country
+
+2200, '300 S Dr', 'Austin', 'Bexer', 'TX', 'United States'
+2201, 'Northgate RD', 'Columbus', 'Lowndes', 'OH', 'United States'
+2202, 'Kalikathan', 'Kathmandu', 'Bagmati', '', 'Nepal'
+2203, '4033 Dr', 'Tokyo', 'Kawasaki', "Nagoya", 'Japan'
+2204, 'Heathrow', 'London', 'Yorkshire', 'SouthHall', 'United Kingdom'
+2205, 'Whisper Crest', 'Birmingham', 'Norwich', 'Midlands', 'United Kingdom'
+2206, '108 St ', 'Helsinki', 'Espoo', '', 'Findland'
+2207, '600 David St', 'Sydney', 'Victoria', 'Mainland','Australia'
+2208, 'Finley Dr', 'Oulu', 'Mainland', '', 'Findland'
+2209, 'Hauptstraße', 'Frankfurt', 'Essen', 'Bremen', 'Germany'
+
+Employee
+
+eid first_name last_name birth_year
+
+2300, 'Jack', 'Well', 1990
+2301, 'Jack', 'Ross', 1989
+2302, 'Kim', 'Roger', 1998
+2303, 'Haley', 'Smith', 1981
+2304, 'Andy', 'Smith', 1969
+2305, 'Devon', 'Sanders', 1989
+2306, 'Maria', 'Brown', 1985
+2307, 'Justin', 'Lopez', 1995
+2308, 'Baile', 'Wilson', 1973
+2309, 'Sarah', 'Dixon', 1975
+
+Sales
+
+Sales_id, sale_type, Sale_datetime, StoreID, EID, Prod_id, Price, Quantity
+
+2400, 'CreditCard', '2019-05-18 12:15', 2200,2300,2100,2000.58,2
+2401, 'CreditCard', '2020-01-30 18:15',2202,2305,2104,1100.67,1
+2402,'Cash', '2019-12-13 5:25',2207, 2303,2102,756.58,1
+2403, 'Cash', '2019-08-29 14:45',2201,2309,2109,3078.23,3
+2404, 'DebitCard', '2019-10-18 8:15', 2203,2301,2108,989.21,1
+2405, 'DebitCard', '2019-11-30 9:25', 2206,2301,2106,1678.56,3
+2406, 'CreditCard', '2020-01-01 10:15', 2201,2305,2103,1875.34,4
+2407, 'Cash', '2020-01-03 11:40', 2205,2303,2107,3432.45,5
+2408, 'CreditCard', '2019-02-14 13:55',2201,2307,2101,1472.66,3
+2409, 'CreditCard', '2019-07-19 16:15',2203,2304,2105,2210.58,2
